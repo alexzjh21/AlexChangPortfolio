@@ -118,6 +118,7 @@
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    margin: 0, 15px;
   }
   
   .greets {
@@ -129,7 +130,6 @@
   }
   
   .greets h2 {
-    width: 35%;
     font-style: italic;
     font-size: 40px;
     color: var(--primary-color);
@@ -160,18 +160,39 @@
   }
   /* SECTION TITLE STYLES END */
   
-  /* WHAT WE DO STYLES */
-  .intro {
-    background-image: url("../images/background.jpg");
+  /* ABOUT ME SECTION STYLE */
+  /* .intro { */
+    /* background-image: url("../images/background.jpg"); */
+  /* } */
+  .container {
+    display: flex;
   }
-  .intro p {
-    line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
+  .child {
+    flex: 1;
+    padding: 20px;
+    padding-top: 0;
+}
+
+  /* SCHOOL LIST */
+.sub-title{
     text-align: center;
+    font-size: 160%;
+    line-height: 2;
+}
+
+  .schools {
+    line-height: 2;
+    display: block;
+    font-weight: bold;
+    padding-left: 22%
   }
+
+  .details {
+      padding-left: 20px;
+      font-weight: lighter;
+      font-style: italic;
+  }
+  
   
   /* WHAT YOU DO STYLES START */
   .steps { 
@@ -414,7 +435,7 @@
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
     section {
-      padding: 30px 15px;
+      padding: 30px, 15px;
     }
   
     .step h3 {

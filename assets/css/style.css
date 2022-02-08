@@ -161,9 +161,7 @@
   /* SECTION TITLE STYLES END */
   
   /* ABOUT ME SECTION STYLE */
-  /* .intro { */
-    /* background-image: url("../images/background.jpg"); */
-  /* } */
+
   .container {
     display: flex;
   }
@@ -171,20 +169,20 @@
     flex: 1;
     padding: 20px;
     padding-top: 0;
-}
+   }
 
   /* SCHOOL LIST */
-.sub-title{
+  .sub-title{
     text-align: center;
     font-size: 160%;
     line-height: 2;
-}
+  }
 
   .schools {
     line-height: 2;
     display: block;
     font-weight: bold;
-    padding-left: 22%
+    padding-left: 22%;
   }
 
   .details {
